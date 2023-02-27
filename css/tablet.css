@@ -1,0 +1,67 @@
+@media screen and (max-width: 992px) {
+  section > .container {
+    width: 100vw;
+  }
+
+  /* Navigation Bar ----------------------------------------------------*/
+  .avatar {
+    display: none;
+  }
+  #nav-bar .container {
+    justify-content: center;
+  }
+
+  /* About Section ----------------------------------------------------*/
+  .about-target {
+    padding: 70px 40px;
+  }
+
+  .about-info {
+    padding: 70px 40px;
+  }
+
+  /* Job Experience Section --------------------------------------------*/
+
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  /* Certificate Section ----------------------------------------------------*/
+
+  .certificate-line {
+    display: grid;
+    gap: 20px;
+  }
+
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certificate-item img {
+    height: auto;
+    width: 35vw;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .certificate-desc h3 {
+    font-size: 18px;
+  }
+  /* Project Section  ----------------------------------------------------*/
+
+  #project .container {
+    padding: 0;
+  }
+
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .project-item h3 {
+    font-size: 18px;
+  }
+}

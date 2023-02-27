@@ -1,0 +1,106 @@
+@media screen and (max-width: 576px) {
+  /* Navigation Bar ----------------------------------------------------*/
+  .avatar {
+    display: none;
+  }
+  #nav-bar .container {
+    display: block;
+  }
+
+  .container--sect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #nav-bar a:link,
+  #nav-bar a:visited {
+    padding-left: 60px;
+    height: 60px;
+    border: none;
+  }
+  /* About Section ----------------------------------------------------*/
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-target {
+    padding: 70px 20px;
+  }
+
+  .about-info {
+    padding: 70px 20px;
+  }
+
+  /* Job Experience Section --------------------------------------------*/
+
+  #job-info .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Certificate Section ----------------------------------------------------*/
+
+  .certificate-line {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    border: none;
+  }
+
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #certificate-javascript {
+    border-left: none;
+  }
+
+  .certificate-item img {
+    height: auto;
+    width: 80vw;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .certificate-desc {
+    line-height: 2;
+    font-size: 14px;
+  }
+
+  .certificate-desc h3 {
+    font-size: 18px;
+  }
+
+  /* Project Section ----------------------------------------------------*/
+  .project-flex-container {
+    padding: 0;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .project-item {
+    width: 100vw;
+  }
+
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .project-item h3 {
+    font-size: 18px;
+  }
+
+  /* Footer Section ----------------------------------------------------*/
+  #footer span {
+    display: none;
+  }
+
+  #footer i {
+    font-size: 50px;
+  }
+}
